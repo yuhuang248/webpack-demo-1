@@ -17,7 +17,7 @@ button.onclick = ()=>{
         const fn = module.default()
         fn()
     },()=>{
-        console.log('模块加载错误')
+        console.log('模块加载错误!')
     })
 
 }
